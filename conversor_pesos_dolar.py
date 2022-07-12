@@ -1,6 +1,5 @@
-
 print("*** Programa que convierte los pesos Méxicanos a Dólares. ***")
-pesos = float(input("¿Cuántos pesos Méxicanos tienes?: "))
+pesos = float(input("¿Cuántos pesos méxicanos tienes?: "))
 valor_dolar = 20.79
 dolares = str(round(pesos / valor_dolar,2))
 
